@@ -1,0 +1,32 @@
+en:
+  home: "Home"
+  math: "Mathematics"
+  other_projects: "Non-math projects"
+  about_name: "What does 'Qaqqaqaqaaq' mean?"
+  projects: "Projects"
+  notes: "Course notes"
+  problems: "Interesting problems"
+  gis_projects: "GIS projects"
+  poetry: "Translation of Adivasi poetry"
+  
+fr:
+  home: "Accueil"
+  math: "Mathématiques"
+  other_projects: "Autres projets"
+  about_name: "Ça veut dire quoi 'Qaqqaqaqaaq' ?"
+  projects: "Projets"
+  notes: "Notes de cours"
+  problems: "Problèmes interessants"
+  gis_projects: "Projets SIG"
+  poetry: "Traduction de poésie Adivasi"
+  
+hi:
+  home: "घर"
+  math: "गणित"
+  other_projects: "दूसरे projects"
+  about_name: "Qaqqaqaqaaq का मतलब क्या है?"
+  projects: "Projects"
+  notes: "क्लासों के notes"
+  problems: "समस्याएं"
+  gis_projects: "GIS projects"
+  poetry: "आदिवासी कविता का अनुवाद"
