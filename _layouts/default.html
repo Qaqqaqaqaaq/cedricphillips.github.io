@@ -7,26 +7,26 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <nav>
-    <div class="nav-links">
-      <a href="/{{ page.lang }}/index.html">{{ site.data.translations[page.lang].home }}</a>
-      <a href="/{{ page.lang }}/math.html">{{ site.data.translations[page.lang].math }}</a>
-      <a href="/{{ page.lang }}/other-projects.html">{{ site.data.translations[page.lang].other_projects }}</a>
-      <a href="/{{ page.lang }}/qaqqaqaqaaq.html">{{ site.data.translations[page.lang].about_name }}</a>
+<nav>
+  <div class="nav-links">
+    <a href="/{{ page.lang }}/index.html">{{ site.data.translations[page.lang].home }}</a>
+    <a href="/{{ page.lang }}/math.html">{{ site.data.translations[page.lang].math }}</a>
+    <a href="/{{ page.lang }}/other-projects.html">{{ site.data.translations[page.lang].other_projects }}</a>
+    <a href="/{{ page.lang }}/qaqqaqaqaaq.html">{{ site.data.translations[page.lang].about_name }}</a>
+  </div>
+  
+  {% if page.slug == 'index' %}
+    <div class="language-switcher">
+      <a href="/en/{{ page.slug }}.html" {% if page.lang == 'en' %}class="active"{% endif %}>EN</a>
+      <span class="separator">|</span>
+      <a href="/fr/{{ page.slug }}.html" {% if page.lang == 'fr' %}class="active"{% endif %}>FR</a>
+      <span class="separator">|</span>
+      <a href="/hi/{{ page.slug }}.html" {% if page.lang == 'hi' %}class="active"{% endif %}>HI</a>
     </div>
-    
-    {% if page.slug == 'index' %}
-      <div class="language-switcher">
-        <a href="/en/{{ page.slug }}.html" {% if page.lang == 'en' %}class="active"{% endif %}>EN</a>
-        <span class="separator">|</span>
-        <a href="/fr/{{ page.slug }}.html" {% if page.lang == 'fr' %}class="active"{% endif %}>FR</a>
-        <span class="separator">|</span>
-        <a href="/hi/{{ page.slug }}.html" {% if page.lang == 'hi' %}class="active"{% endif %}>HI</a>
-      </div>
-    {% else %}
-      <div></div>
-    {% endif %}
-  </nav>
+  {% else %}
+    <div></div>
+  {% endif %}
+</nav>
 
   <main>
     {{ content }}
