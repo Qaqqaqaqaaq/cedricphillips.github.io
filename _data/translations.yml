@@ -21,12 +21,12 @@ fr:
   poetry: "Traduction de poésie Adivasi"
   
 hi:
-  home: "घर"
+  home: "होम"
   math: "गणित"
-  other_projects: "दूसरे"
-  about_name: "Qaqqaqaqaaq का मतलब क्या है?"
+  other_projects: "बाक़ी प्रोजेक्ट्स"
+  about_name: "Qaqqaqaqaaq का क्या मतलब है?"
   projects: "प्रोजेक्ट्स"
-  notes: "क्लासों के नोट"
-  problems: "समस्याएं"
+  notes: "कोर्स के नोट्स"
+  problems: "दिलचस्प प्रॉब्लम्स"
   gis_projects: "GIS प्रोजेक्ट्स"
-  poetry: "आदिवासी कविता का अनुवाद"
+  poetry: "आदिवासी कविताओं का अनुवाद"
