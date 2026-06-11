@@ -10,7 +10,10 @@ slug: math-projects
   
   <div style="margin-bottom: 40px;">
     <h2 style="color: var(--maroon); font-size: 1.5rem; margin-bottom: 15px;">Binary डेटा के लिए hierarchical dependence models</h2>
-    <p>Dr. Nešlehová और Dr. Valiquette की देखरेख में चल रही इस रिसर्च में मैं Bernoulli डेटा के लिए एक hierarchical model पढ़ रहा हूँ और सीख रहा हूँ कि उससे sample कैसे generate करते हैं। मक़सद यह है कि Kendall और Spearman rank correlation matrix से model की tree structure का अंदाज़ा लगाने के तरीक़े निकाले जाएँ, और credit risk में इसके इस्तेमाल को explore किया जाए। मैं यह भी देखना चाहता हूँ कि यह model और multivariate Bernoulli random variables के ज़रिए लिखे गए Farlie-Gumbel-Morgenstern distribution के stochastic representation के बीच क्या रिश्ता है। रिपोर्ट पूरी होने पर उसे यहाँ डाल दूँगा।</p>
+    <p>यह रिसर्च, जो Prof. Nešlehová और Dr. Valiquette की देखरेख में हुई, मेरे MATH 470 Honours project के तौर पर शुरू हुई थी। यह Valiquette, Nešlehová और Genest के हाल के काम पर आधारित है, जो multivariate Bernoulli डेटा के लिए hierarchical 'maximum-aggregation' trees के बारे में है। थ्योरी पढ़ने के बाद मेरा फ़ोकस इस पर रहा कि सिर्फ़ डेटा से ही किसी tree की अनजान structure कैसे सीखी जाए: correlation matrix दो हिस्सों में टूट जाती है — एक marginal हिस्सा और एक matrix &Theta;, जिसकी block structure पूरे tree को encode करती है — और मैंने estimated &Theta; से tree को recover करने के लिए greedy algorithms बनाए और test किए। गर्मियों में यह project अपने original scope से काफ़ी आगे बढ़ गया है, जहाँ मैं distance-based recovery criteria, ऐसी weaker assumptions जिनके तहत recovery पक्का काम करे, और असली डेटा पर tests पर काम कर रहा हूँ।</p>
+    <div class="pdf-links" style="margin-top: 15px;">
+      <a href="https://github.com/qaqqaqaqaaq/cedricphillips.github.io/blob/main/pdf2/math_470_hierarchical_trees.pdf" target="_blank">MATH 470 project की रिपोर्ट [PDF]</a>
+    </div>
   </div>
   
   <div style="margin-bottom: 40px;">
